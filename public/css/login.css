@@ -1,0 +1,63 @@
+#cont_Sup *{
+    position: absolute;
+    top: 0;
+}
+
+#img_sup_izq{
+    left: 0;
+}
+
+#img_sup_cnt{
+    left: 50em;
+}
+
+#img_sup_drc{
+right: 0;
+}
+
+#cont_Inf *{
+    position: absolute;
+    bottom: 0;
+}
+
+#img_inf_izq{
+    left: 20em;
+}
+
+#img_inf_drc{
+    right: 0;
+}
+
+#cont_Mid *{
+    position: absolute;
+    left: 20em;
+    top: 15em;
+}
+
+#cont_Mid_Inputs{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 65em;
+    top: 20em;
+}
+
+#cont_Mid_Inputs *{
+    height: 20px;
+    width: 390px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(23, 0, 56);
+    border-color: rgb(23, 0, 56);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#bn_iniSes{
+    height: 34px;
+    width: 405px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 125);
+    color: white;
+    border-width: 0px;
+}
