@@ -39,44 +39,12 @@
     border-width: 0px;
 }
 
-#cont_Mid_Izq *{
-    position: absolute;
-    left: 0;
-}
-
-#img_cnt_iqz_decoSup{
-    top: 220px;
-}
-
-#img_cnt_izq_decoInf{
-    bottom: 150px;
-}
-
 #cont_Inf{
     position: absolute;
     bottom: 0;
     width: 99.5%;
     height: 160px;
     background-color: rgb(23, 0, 56);
-}
-
-#cont_Mid_Drc *{
-    position: absolute;
-    right: 0;
-}
-
-#img_cnt_drc_decoSup{
-    top: 159px;
-}
-
-#img_cnt_drc_decoInf{
-    bottom: 150px;
-}
-
-#cont_Mid *{
-    position: absolute;
-    top: 215px;
-    left: 300px;
 }
 
 #cont_Inf *{
@@ -100,4 +68,8 @@
 
 #img_inf_redes{
     right: 350px;
+}
+
+#cont_Mid{
+    
 }
