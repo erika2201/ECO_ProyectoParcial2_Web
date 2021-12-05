@@ -1,0 +1,61 @@
+#cont_Logo{
+    background-color: rgb(23, 0, 56);
+    height: 100px;
+}
+
+#cont_Logo *{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+#cont_Navegacion{
+    background-color: rgb(242, 242, 242);
+    height: 50px;
+}
+
+#cont_Navegacion *{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(0, 0, 0, 0);
+    width: 138px;
+    height: 50px;
+
+    font-family: Aileron;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(23, 0, 56);
+}
+
+#bn_dla{
+    position: absolute;
+    right: 100px;
+    top: 115px;
+
+    height: 34px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 125);
+    color: white;
+    border-width: 0px;
+}
+
+#cont_Mid_Izq *{
+    position: absolute;
+    left: 0;
+}
+
+#img_cnt_iqz_decoSup{
+    top: 220px;
+}
+
+#img_cnt_izq_decoInf{
+    bottom: 150px;
+}
+
+#cont_Inf{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(23, 0, 56);
+}
