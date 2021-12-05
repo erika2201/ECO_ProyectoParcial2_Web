@@ -59,3 +59,45 @@
     height: 160px;
     background-color: rgb(23, 0, 56);
 }
+
+#cont_Mid_Drc *{
+    position: absolute;
+    right: 0;
+}
+
+#img_cnt_drc_decoSup{
+    top: 159px;
+}
+
+#img_cnt_drc_decoInf{
+    bottom: 150px;
+}
+
+#cont_Mid *{
+    position: absolute;
+    top: 215px;
+    left: 300px;
+}
+
+#cont_Inf *{
+    position: absolute;
+    bottom: 30px;
+}
+
+#img_inf_sobreNosotros{
+    left: 350px;
+}
+
+#img_inf_desarga{
+    left: 700px;
+    bottom: 120px;
+}
+
+#img_inf_portales{
+    right: 700px;
+    bottom: 60px;
+}
+
+#img_inf_redes{
+    right: 350px;
+}
