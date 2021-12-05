@@ -1,0 +1,19 @@
+{
+  "name": "eco_proyectoparcial2_web",
+  "version": "1.0.0",
+  "description": "Proyecto Parcial 2",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erika2201/ECO_ProyectoParcial2_Web.git"
+  },
+  "author": "Alejandro, Erika, Gabriel, Isabella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erika2201/ECO_ProyectoParcial2_Web/issues"
+  },
+  "homepage": "https://github.com/erika2201/ECO_ProyectoParcial2_Web#readme"
+}
