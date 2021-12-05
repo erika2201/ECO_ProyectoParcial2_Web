@@ -1,0 +1,50 @@
+#cont_Sup *{
+    position: absolute;
+    top: 0;
+}
+
+#img_sup_izq{
+    left: 0;
+}
+
+#img_sup_cnt{
+    left: 50em;
+}
+
+#img_sup_drc{
+right: 0;
+}
+
+#cont_Inf *{
+    position: absolute;
+    bottom: 0;
+}
+
+#img_inf_izq{
+    left: 0;
+}
+
+#img_inf_drc{
+    right: 0;
+}
+
+#cont_Mid *{
+    position: absolute;
+    left: 37em;
+    top: 18em;
+}
+
+#cont_Mid_Bn *{
+    position: absolute;
+    left: 57em;
+    top: 43em;
+}
+
+#bn_iniSes{
+    height: 30px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 125);
+    color: white;
+    border-width: 0px;
+}
