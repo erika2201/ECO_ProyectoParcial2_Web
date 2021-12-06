@@ -10,6 +10,12 @@ const auth = getAuth();
 
 // =================================================================================== //
 
+const txt_usuario = document.getElementById("txt_nombreUsuario");
+const compSpace = document.getElementById("compSpace");
+const bn_logOut = document.getElementById("bn_logOut");
+
+// =================================================================================== //
+
 // Obtener usuario
 auth.onAuthStateChanged(
     (user) => {
@@ -29,6 +35,8 @@ auth.onAuthStateChanged(
     }
 );
 
+
+// Imprimir componentes
 function printAhorroComp(data){
     if(data){
         Object.keys(data).forEach((k, index) => {
@@ -42,5 +50,8 @@ function printAhorroComp(data){
 
 // =================================================================================== //
 
-const txt_usuario = document.getElementById("txt_nombreUsuario");
-const compSpace = document.getElementById("compSpace");
+// LogOut
+bn_logOut.addEventListener('click', () => {
+    auth.signOut();
+    window.location.href = "login.html";
+});
