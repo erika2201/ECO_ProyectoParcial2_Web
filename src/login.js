@@ -27,8 +27,4 @@ const iniSes = document.getElementById("bn_iniSes");
 
 // =================================================================================== //
 
-function aviso(e, event){
-    console.log('hubo click');
-}
-
 iniSes.addEventListener("click", iniciarSesion);
