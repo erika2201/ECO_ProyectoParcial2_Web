@@ -15,31 +15,32 @@ auth.onAuthStateChanged(
     (user) => {
         const db = getDatabase();
         const dbref = ref(db, 'users/' + user.uid);
+        const dbRef = ref(db, 'users/' + user.uid + '/ahorros');
 
         onValue(dbref, (snapshot) => {
             const data = snapshot.val();
             txt_usuario.innerHTML = data.name;
         });
-    }
-);
-
-auth.onAuthStateChanged(
-    (user) => {
-        const db = getDatabase();
-        const dbRef = ref(db, 'users/' + user.uid + 'ahorros');
 
         onValue(dbRef, (snapshot) => {
             const dataDB = snapshot.val();
+            printAhorroComp(dataDB);
         });
     }
 );
 
 function printAhorroComp(data){
     if(data){
-        
+        Object.keys(data).forEach((k, index) => {
+            console.log(k, index);
+            const ahorro = new ahorroComp(data[k]);
+
+            compSpace.appendChild(ahorro.render());
+        });
     }
 }
 
 // =================================================================================== //
 
 const txt_usuario = document.getElementById("txt_nombreUsuario");
+const compSpace = document.getElementById("compSpace");
