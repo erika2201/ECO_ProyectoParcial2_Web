@@ -15,7 +15,7 @@
   \************************/
 /***/ (() => {
 
-
+eval("console.log('entra al js');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGFuZGluZy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2Vjb19wcm95ZWN0b3BhcmNpYWwyX3dlYi8uL3NyYy9sYW5kaW5nLmpzP2VjMjUiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ2VudHJhIGFsIGpzJyk7Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/landing.js\n");
 
 /***/ })
 
