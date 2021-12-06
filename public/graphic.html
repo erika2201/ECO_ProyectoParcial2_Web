@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biber -graficos-</title>
         <link rel="stylesheet" href="css/graphic.css">
+
+        <title>Calendar</title>
     </head>
     <body>
         <div id="cont_Logo">
@@ -41,6 +43,29 @@
             <img id="img_inf_portales" src="/img/main/img_inf_portales.png">
             <img id="img_inf_redes" src="/img/main/img_inf_redes.png">
         </div>
+
+        <h1 class="title">Calendar</h1>
+
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
+    </div>
+
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Mon</div>
+        <div class="calendar__day calendar__item">Tue</div>
+        <div class="calendar__day calendar__item">Wed</div>
+        <div class="calendar__day calendar__item">Thu</div>
+        <div class="calendar__day calendar__item">Fri</div>
+        <div class="calendar__day calendar__item">Sat</div>
+        <div class="calendar__day calendar__item">Sun</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+</div>
     </body>
     <script src="graphic.js"></script>
 </html>
