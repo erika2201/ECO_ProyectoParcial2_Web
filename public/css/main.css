@@ -26,7 +26,7 @@
     color: rgb(23, 0, 56);
 }
 
-#bn_dla{
+#bn_logOut{
     position: absolute;
     right: 100px;
     top: 115px;
@@ -119,4 +119,86 @@
 
     height: 800px;
     width: 1500px;
+}
+
+.comp_padre{
+    position: relative;
+    height: 220px;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-family: Aileron;
+
+    margin-bottom: 20px;
+}
+
+.comp_name{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.comp_cant{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.txt_subTitle_cant1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-weight: lighter;
+}
+
+.txt_subTitle_cant2{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    font-weight: lighter;
+}
+
+.comp_date{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+
+.txt_subTitle_date{
+    position: absolute;
+    top: 65px;
+    left: 150px;
+    font-weight: lighter;
+}
+
+.comp_freq{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+
+.txt_subTitle_freq{
+    position: absolute;
+    top: 65px;
+    left: 300px;
+    font-weight: lighter;
+}
+
+.comp_progress{
+    position: absolute;
+    right: 20px;
+}
+
+.comp_bn_verMas{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: rgb(23, 0, 56);
+    color: white;
+    border-color: rgba(255, 255, 255, 0);
 }
