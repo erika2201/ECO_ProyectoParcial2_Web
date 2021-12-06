@@ -1,6 +1,25 @@
+ * {
+  margin: 0;
+
+}
 #cont_Logo{
     background-color: rgb(23, 0, 56);
     height: 100px;
+}
+
+.list{
+  color: white;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.list ul{
+  color: white;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+
 }
 
 #cont_Logo *{
@@ -36,42 +55,46 @@
     border-radius: 20px;
     background-color: rgb(255, 0, 125);
     color: white;
-    border-width: 0px;
 }
 
-#cont_Inf{
-    position: absolute;
-    bottom: 0;
-    width: 99.5%;
-    height: 160px;
+
+#cont_Inf {
+
+  padding-top: 60px;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 99.5%;
+    height: 220px;
     background-color: rgb(23, 0, 56);
+    display: flex;
+    justify-content: space-evenly;
+
+
+
 }
 
-#cont_Inf *{
-    position: absolute;
-    bottom: 30px;
+#img_cnt_izq{
+  width:80%
+}
+#img_temp_grafico{
+  width:80%
 }
 
-#img_inf_sobreNosotros{
-    left: 350px;
-}
 
-#img_inf_desarga{
-    left: 700px;
-    bottom: 120px;
-}
-
-#img_inf_portales{
-    right: 700px;
-    bottom: 60px;
-}
-
-#img_inf_redes{
-    right: 350px;
-}
 
 #cont_Mid{
-    
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+#cont_Mid_Drc{
+  width: 10%;
 }
 .title {
     /*text-align:;*/
@@ -104,7 +127,7 @@
     .calendar__week, .calendar__dates {
       display: grid;
       grid-template-columns: repeat(7, 1fr);
-      grid-gap: 10px; }
+      grid-gap: 8px; }
     .calendar__month, .calendar__year {
       padding: .5em 1em; }
     .calendar__item {
